@@ -5,7 +5,7 @@ import ProductFeed from './components/ProductFeed'
 
 const App = () => {
   return (
-    <div>
+    <div className='bg-gray-100'>
       <Header></Header>
       <div className='max-w-7xl mx-auto'><Banner/></div>
       <ProductFeed/>
