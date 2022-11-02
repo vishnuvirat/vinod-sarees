@@ -16,9 +16,11 @@ const Product = ({ id, title, price, description, category, image }) => {
       <img src={image} height={200} width={200}></img>
 
       <h4>{title}</h4>
-      {Array(rating).fill().map((_, i) => (
-        <AiFillStar className='h-5'/>
-      ))}
+      <div className='flex'>
+        {Array(rating).fill().map((_, i) => (
+          <AiFillStar className='h-5'/>
+        ))}
+      </div>
       
     </div>
   )
