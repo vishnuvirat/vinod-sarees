@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "./Banner";
 import Header from "./Header";
 import ProductFeed from "./ProductFeed";
+import Signin from "./Signin";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
         <Banner />
       </div>
       <ProductFeed />
+      <Signin />
     </div>
   );
 };

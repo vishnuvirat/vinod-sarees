@@ -44,13 +44,7 @@ const Header = () => {
           <BsSearch className="cursor-pointer w-6 h-6 mx-4  text-red-500" />
         </div>
         <div className="hidden lg:block ml-8 hover:underline">
-          <div className="text-sm cursor-pointer">Hello, sign in</div>
-          <div>
-            <div className="text-sm font-bold cursor-pointer">
-              Accounts & lists
-            </div>
-            <div></div>
-          </div>
+          <button className=" font-bold border border-red-500 p-2 text-sm cursor-pointer rounded-sm hover:bg-red-500 hover:text-black">Login</button>
         </div>
         <div className="hidden lg:block mx-8 hover:underline">
           <div className="text-sm">Returns</div>
