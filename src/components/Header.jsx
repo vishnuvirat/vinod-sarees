@@ -1,11 +1,14 @@
 import React from "react";
 import logo from "../assets/logo.png";
-import { BsSearch } from "react-icons/bs";
+import { BsGoogle, BsSearch } from "react-icons/bs";
 import { GoLocation } from "react-icons/go";
 import { BsCart3 } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { useEffect } from "react";
 
 const Header = () => {
+
+
   return (
     <div>
       {/* top nav  */}
@@ -41,7 +44,7 @@ const Header = () => {
           <BsSearch className="cursor-pointer w-6 h-6 mx-4  text-red-500" />
         </div>
         <div className="hidden lg:block ml-8 hover:underline">
-          <div className="text-sm">Hello, sign in</div>
+          <div className="text-sm cursor-pointer">Hello, sign in</div>
           <div>
             <div className="text-sm font-bold cursor-pointer">
               Accounts & lists

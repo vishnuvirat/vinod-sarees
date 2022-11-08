@@ -32,7 +32,6 @@ const Product = ({ id, title, price, description, category, image }) => {
             <AiFillStar className="h-5 text-red-500" />
           ))}
       </div>
-
       <p className="text-xs my-2 line-clamp-2">{description}</p>
       <p className="font-bold text-red-500">{price}</p>
 
