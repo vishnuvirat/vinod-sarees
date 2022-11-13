@@ -4,17 +4,20 @@ import logo from "../assets/logo.png";
 
 const Signin = () => {
   return (
-    <div className="bg-slate-900">
-      <div className="grid grid-flow-col-dense grid-cols-2 ">
-        <div className=" flex items-center justify-center h-screen ">
-          <img src={logo}></img>
+    <div className="bg-slate-900 flex h-screen">
+      <div className="hidden lg:block h-screen flex-1">
+        <div className="flex items-center justify-center h-screen ">
+          <img className="hidden lg:block" src={logo}></img>
         </div>
-        <div className="flex items-center justify-center  ">
+      </div>
+      <div className="flex flex-1 items-center justify-center">
+        <div className="lg:flex sm:items-center sm:justify-center">
+          <div className="sm:flex sm:justify-center">
+            <img className="hidden sm:block sm:h-44 lg:hidden" src={logo}></img>
+          </div>
           <div className="text-white border-2 p-20 rounded-lg">
-            <div className="flex text-5xl">
-              <div className="flex items-center justify-center text-5xl">
-                Hello Again
-              </div>
+            <div className="flex text-5xl items-center justify-center">
+              <div className=" text-5xl">Hello Again</div>
               <div className="text-red-500 ml-2">!</div>
             </div>
             <div className="mt-28 flex items-center justify-center">
@@ -48,3 +51,6 @@ const Signin = () => {
 };
 
 export default Signin;
+
+{
+}
